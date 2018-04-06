@@ -2,8 +2,8 @@
   "name": "at_subtheme",
   "version": "8.0.0",
   "description": "Theme starterkit for Adaptivetheme and Drupal 8",
-  "author": "Jeff Burnz",
-  "email": "jmburnz@gmail.com",
+  "author": "jeanseb",
+  "email": "jeanseb.valette@free.fr",
   "private": true,
   "devDependencies": {
     "grunt": "1.0.1",
@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://cgit.drupalcode.org/at_tools/"
+    "url": "https://github.com/matevoux/matevoux_theme.git"
   },
   "bugs": {
     "url": "https://www.drupal.org/project/issues/at_tools"
