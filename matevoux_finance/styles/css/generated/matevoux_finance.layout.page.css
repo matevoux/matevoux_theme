@@ -198,3 +198,8 @@
 
 
 .l-attribution { -webkit-order: 100; -ms-flex-order: 100; order: 100 ;}
+
+/* view slideshow */
+
+ #views_slideshow_cycle_main_article-bandeau {background-color: lightgray;    padding-left: 5%;}
+    
