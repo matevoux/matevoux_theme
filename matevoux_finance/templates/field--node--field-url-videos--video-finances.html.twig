@@ -1,10 +1,8 @@
 
 {% for item in items %}
-<div align="center" width="80%" height="0" padding-bottom: 56.25%;>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/{{item.content["#title"] }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-<!--
-<br />
-  <a href="{{ item.content["#url"] }}" > voir sur Youtube </a>
+{% if item.content["#title"]|length %}
+<div class="videosFinance">
+<iframe class="videosFinance" src="https://www.youtube.com/embed/{{item.content["#title"] }}" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
--->
+{% endif %}
 {% endfor %}

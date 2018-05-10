@@ -202,4 +202,9 @@
 /* view slideshow */
 
  #views_slideshow_cycle_main_article-bandeau {background-color: lightgray;    padding-left: 5%;}
+ 
+/* Vidèos Finances */
+.videosFinance { position: relative; max-width: 320px; padding-bottom: 56.25%;}
+
+.videosFinance  iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
     

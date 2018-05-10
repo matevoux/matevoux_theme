@@ -1,6 +1,8 @@
 
-<div align="center">
-<iframe width="320"  src="https://www.youtube.com/embed/{{ row._entity.fields.field_url_videos.title  }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+{% if row._entity.fields.field_url_videos.title|length %}
+<div class="videosFinance">
+<iframe classe="videosFinance"  src="https://www.youtube.com/embed/{{ row._entity.fields.field_url_videos.title  }}" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <br />
   <a href="{{ row._entity.fields.field_url_videos.uri }}" > voir sur Youtube </a>
 </div>
+{% endif %}
