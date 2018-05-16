@@ -207,4 +207,6 @@
 .videosFinance { position: relative; width: 320px; height:180px; align: center}
 
 .videosFinance  iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+#colorbox-article  { width:100%; height:100%}
     
