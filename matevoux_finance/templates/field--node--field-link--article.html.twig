@@ -77,9 +77,13 @@ jQuery(document).ready(function () {
         	inline:true, 
         	href:"#colorbox-article",
         	onLoad:function(){ 
-        		//alert(this.href);
-        		   jQuery("#iframe-colorbox-article").attr('src',this.href);	
-        	}  
+        		try {
+                    alert(this.href);
+        		    jQuery("#iframe-colorbox-article").attr('src',this.href);
+        		} catch(err) {
+                        window.open(this.href, '_blank');
+                        jQuery("a#iframe-article").colorbox.close() }
+        		} 
         })
 });
 
